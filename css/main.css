@@ -1,0 +1,252 @@
+
+
+
+
+
+.content
+{
+
+	background-color: white;
+	height: 700px;
+	margin: 25px ;
+	position: relative;
+	top:25px;
+	max-width: 100%;
+	text-align: center;
+	margin-left: 200px;
+
+}
+
+
+
+.cont-cols {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 50px;
+}
+
+
+.titulo{
+  font-size: 35px;
+  height: auto;
+  max-width: 80%;
+ 
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 65px;
+  word-spacing: normal;
+  text-align: left;
+}
+
+.material-icons.md-100 { font-size: 100px; 
+padding: 20px;
+color: lightgreen; }
+
+
+
+.listbutton li {
+  display: inline;
+  float: left;
+  width: 25%;
+}
+
+.listbutton li  a {
+	text-transform: uppercase;
+	font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    word-spacing: normal;
+
+
+
+}
+
+
+.col-4{
+
+width: 33.33%;
+float: left;
+position: relative;
+box-sizing: border-box;
+
+}
+
+.buscar{
+
+ float: right;
+ text-align: right;
+
+
+}
+.stilobuscar{
+ padding: 7px;
+ border:solid #f7f7f7 2px;
+ border-radius: 10px;
+
+}
+
+.parrafo{
+
+ font-size: 17px;
+ line-height: 30px;
+  word-spacing: normal;
+
+}
+
+.consulta{
+
+	padding: 18px;
+	border: solid purple 5px ;
+	border-radius: 15px;
+	background-color: purple;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+
+}
+
+.foto{
+
+width: 50%
+
+}
+
+.col-6{
+width: 50%;
+float: left;
+position: relative;
+
+}
+
+@media screen and (max-width:550px){
+
+
+
+.content
+{
+
+	background-color: white;
+	height: auto;
+	text-align: center;
+	margin-left: 0;
+	width: 100%;
+	padding: 0 1em;
+	box-sizing: border-box;
+
+
+}
+
+.cont-cols {
+	position: relative;
+	width: auto;
+	padding: 1em;
+
+	
+}
+
+.cont-button{
+
+ text-align: left;
+
+}
+
+.titulo{
+  font-size: 1em;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+
+  
+}
+.titulo h1 {
+ line-height:normal;
+ 
+  
+}
+
+.material-icons.md-100 { font-size: 2em; 
+
+color: lightgreen; }
+
+
+
+.listbutton li {
+  
+   width: 100%;
+}
+
+
+
+.col-4{
+
+width: 100%;
+
+
+}
+
+.cont-menu, .buscar{
+
+	width: 50%;
+
+
+}
+
+
+
+
+.stilobuscar{
+ 
+ border:solid #f7f7f7 2px;
+ border-radius: 10px;
+
+}
+
+.parrafo{
+
+ font-size: 0.8em;
+ text-align: left;
+
+
+
+}
+
+.consulta{
+
+	
+	border: solid purple 5px ;
+	border-radius: 15px;
+	background-color: purple;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+
+}
+.cont-button{
+
+ text-align: center;
+
+}
+
+.foto{
+width: 100%;
+ position: relative;
+ 
+
+
+}
+
+.col-6{
+width: 100%;
+position: relative;
+
+
+}
+
+
+
+
+
+}
